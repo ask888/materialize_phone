@@ -1,0 +1,14 @@
+.account-create .soc-seti{
+    top: 29.5% !important;
+}
+.auth .soc-seti{
+     top: 25.5% !important;
+}
+ 
+/*Button In cart*/
+.incart.middle .icon {
+    margin-left: -2px !important;
+}
+.incart.big .icon{
+    margin-left: 5px !important;
+}

@@ -1,0 +1,1 @@
+/*rc_ret="ok";*/(new Image()).src="//ad.adriver.ru/cgi-bin/rle.cgi?sid=1&ad=402621&bt=21&pid=1178024&bid=2583256&bn=2583256&rnd="+Math.round(Math.random()*1E9);

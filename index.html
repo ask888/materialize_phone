@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://use.fontawesome.com/f912f3b241.js"></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+       <div class="row">
+           <div class="col s12">
+               <!-- Dropdown Structure -->
+               <ul id="dropdown1" class="dropdown-content">
+                   <li><a href="#!">one</a></li>
+                   <li><a href="#!">two</a></li>
+                   <li class="divider"></li>
+                   <li><a href="#!">three</a></li>
+                   <li><a href="#!">four</a></li>
+                   <li><a href="#!">five</a></li>
+                   <li><a href="#!">six</a></li>
+               </ul>
+               <nav>
+                   <div class="nav-wrapper">
+                       <a href="#!" class="brand-logo"> <i class="material-icons">adb</i>Logo</a>
+                       <ul class="right hide-on-med-and-down">
+                           <li><a href="#">Link1</a></li>
+                           <li><a href="#">Link2</a></li>
+                           <li><a href="#">Link3</a></li>
+                           <li><a href="#">Link4</a></li>
+                           <li><a href="#">Link5</a></li>
+                           <!-- Dropdown Trigger -->
+                           <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                       </ul>
+                   </div>
+               </nav>
+           </div>
+       </div>
+        <div class="row header-person-wrapper">
+            <div class="col s3">
+                <!-- Dropdown Structure -->
+                <ul id="dropdown2" class="dropdown-content">
+                    <li><a href="#!">0 800 999 99 99</a></li>
+                    <li><a href="#!">0 800 999 99 99</a></li>
+                    <li><a href="#!">0 800 999 99 99</a></li>
+                </ul>
+                <nav>
+                    <div class="nav-wrapper">
+                        <ul class="right hide-on-med-and-down">
+                            <!-- Dropdown Trigger -->
+                            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">0 800 999 99 99<i class="material-icons right">arrow_drop_down</i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div><!-- col s3 -->
+            <div class="col s4">
+                <input type="search" class="search-area" id="search" placeholder="search">
+
+            </div><!-- col s4 -->
+            <div class="col s1">
+                <button class="waves-effect waves-light btn search-button valign-wrapper"><i class="material-icons"> search</i></button>
+
+            </div><!-- col s1 -->
+            <div class="col s2">
+                <div class="account-wrapper valign-wrapper">
+                    <a href="#" class="personal-account">
+                        <i class="material-icons left">person_outline</i>
+                        My account
+                    </a>
+                </div>
+
+            </div><!-- col s2 -->
+            <div class="col s2">
+                <div class="cart-wrapper valign-wrapper">
+                    <a href="#" class="personal-cart">
+                        <i class="material-icons left">shopping_cart</i>
+                        My cart
+                    </a>
+                </div>
+
+
+            </div><!-- col s2 -->
+        </div> <!-- header-person-wrapper -->
+    </header> <!-- header end -->
+    <main>
+        <div class="row main-slider-wrapper">
+            <div class="col s4">
+                <h2 class="catalog-title">Каталог товаров</h2>
+                <ul class="catalog-block">
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Xiaomi</a></li>
+                    <li><a href="#">HTC</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Xiaomi</a></li>
+                    <li><a href="#">HTC</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Xiaomi</a></li>
+                    <li><a href="#">HTC</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Xiaomi</a></li>
+                </ul>
+
+            </div> <!-- col s4 -->
+            <div class="col s8">
+                <div class="carousel carousel-slider center" data-indicators="true">
+                    <div class="carousel-item red white-text" href="#one!">
+                        <img src="img/slider2.JPG" alt="">
+                    </div>
+                    <div class="carousel-item amber white-text" href="#two!">
+                        <img src="img/slider1.JPG" alt="">
+                    </div>
+                    <div class="carousel-item green white-text" href="#three!">
+                        <img src="img/slider3.png" alt="">
+                    </div>
+                </div>
+            </div> <!-- col s8 -->
+        </div> <!-- main-slider-wrapper -->
+        <div class="main-hot-products-wrapper">
+            <div class="row">
+                <div class="col s12 main-hot-products-block">
+                    <h2 class="hot-products-title">Горячие новинки</h2>
+                    <ul class="tabs">
+                        <li class="tab col s3 active"><a href="#hot-phones">Телефоны</a></li>
+                        <li class="tab col s3"><a href="#test2">Планшеты</a></li>
+                        <li class="tab col s3"><a href="#test3">Ноутбуки</a></li>
+                        <li class="tab col s3"><a href="#test4">Телевизоры</a></li>
+                    </ul>
+                </div>
+               <div class="row">
+                   <div id="hot-phones" class="hot-products-wrapper">
+                       <a href="#" class="col s6 hot-product-item">
+                           <img class="hot-product-img-big" src="img/hot-prod.JPG" alt="img">
+                       </a>
+                       <div class="col s6">
+                           <div class="row">
+                               <div class="col s6 hot-product-item">
+                                   <img class="hot-product-img" src="img/apple1.jpeg" alt="img">
+                                   <h3 class="hot-product-title">Apple iPhone 8 256GB Space Gray</h3>
+                                   <span class="popular-product-price left blue-grey-text text-darken-2">$233</span>
+                                   <a class="hot-product-button waves-effect waves-light btn right">Предзаказ</a>
+                               </div>
+                               <div class="col s6 hot-product-item">
+                                   <img class="hot-product-img" src="img/apple1.jpeg" alt="img">
+                                   <h3 class="hot-product-title">Apple iPhone 8 256GB Space Gray</h3>
+                                   <span class="popular-product-price left blue-grey-text text-darken-2">$233</span>
+                                   <a class="hot-product-button waves-effect waves-light btn right">Предзаказ</a>
+                               </div>
+                               <div class="col s6 hot-product-item">
+                                   <img class="hot-product-img" src="img/apple1.jpeg" alt="img">
+                                   <h3 class="hot-product-title">Apple iPhone 8 256GB Space Gray</h3>
+                                   <span class="popular-product-price left blue-grey-text text-darken-2">$233</span>
+                                   <a class="hot-product-button waves-effect waves-light btn right">Предзаказ</a>
+                               </div>
+                               <div class="col s6 hot-product-item">
+                                   <img class="hot-product-img" src="img/apple1.jpeg" alt="img">
+                                   <h3 class="hot-product-title">Apple iPhone 8 256GB Space Gray</h3>
+                                   <span class="popular-product-price left blue-grey-text text-darken-2">$233</span>
+                                   <a class="hot-product-button waves-effect waves-light btn right">Предзаказ</a>
+                               </div>
+
+                           </div>
+                       </div>
+                   </div>
+               </div>
+            </div>
+
+        </div><!-- main-hot-products-wrapper -->
+
+        <div class="main-tabs-wrapper">
+            <div class="row">
+                <div class="col s12">
+                    <h2 class="popular-products">
+                        Популярные товары
+                    </h2>
+                    <ul class="tabs">
+                        <li class="tab col s2 active"><a href="#test1">Телефоны</a></li>
+                        <li class="tab col s2"><a href="#test2">Планшеты</a></li>
+                        <li class="tab col s2"><a href="#test3">Ноутбуки</a></li>
+                        <li class="tab col s2"><a href="#test4">Телевизоры</a></li>
+                        <li class="tab col s2"><a href="#test5">Гаджеты</a></li>
+                        <li class="tab col s2"><a href="#test6">Бытовая техника</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div id="test1" class="popular-products-wrapper">
+                        <div class="col s3 popular-product-item">
+                            <img class="popular-product-img" src="img/apple1.jpeg" alt="img">
+                            <h3 class="product-title">Apple iPhone 8 256GB Space Gray</h3>
+                            <span class="popular-product-price left blue-grey-text text-darken-2">$233</span>
+                            <a class="waves-effect waves-light btn right">Предзаказ</a>
+                        </div>
+                        <div class="col s3 popular-product-item">
+                            <img class="popular-product-img" src="img/apple1.jpeg" alt="img">
+                            <h3 class="product-title">Apple iPhone 8 256GB Space Gray</h3>
+                            <span class="popular-product-price left blue-grey-text text-darken-2">$233</span>
+                            <a class="waves-effect waves-light btn right">Предзаказ</a>
+                        </div>
+                        <div class="col s3 popular-product-item">
+                            <img class="popular-product-img" src="img/apple1.jpeg" alt="img">
+                            <h3 class="product-title">Apple iPhone 8 256GB Space Gray</h3>
+                            <span class="popular-product-price left blue-grey-text text-darken-2">$233</span>
+                            <a class="waves-effect waves-light btn right">Предзаказ</a>
+                        </div>
+                        <div class="col s3 popular-product-item">
+                            <img class="popular-product-img" src="img/apple1.jpeg" alt="img">
+                            <h3 class="product-title">Apple iPhone 8 256GB Space Gray</h3>
+                            <span class="popular-product-price left blue-grey-text text-darken-2">$233</span>
+                            <a class="waves-effect waves-light btn right">Предзаказ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="test2" class="popular-products-wrapper">
+                        <div class="col s3 popular-product-item">
+                            <img class="popular-product-img tablet" src="img/tablet.jpg" alt="img">
+                            <h3 class="product-title">Планшет Apple IPad New 2017 Wi-Fi 32Gb Space Grey (MP2F2)</h3>
+                            <span class="popular-product-price left blue-grey-text text-darken-2">$800</span>
+                            <a class="waves-effect waves-light btn right">Предзаказ</a>
+                        </div>
+                        <div class="col s3 popular-product-item">
+                            <img class="popular-product-img tablet" src="img/tablet.jpg" alt="img">
+                            <h3 class="product-title">Планшет Apple IPad New 2017 Wi-Fi 32Gb Space Grey (MP2F2)</h3>
+                            <span class="popular-product-price left blue-grey-text text-darken-2">$800</span>
+                            <a class="waves-effect waves-light btn right">Предзаказ</a>
+                        </div>
+                        <div class="col s3 popular-product-item">
+                            <img class="popular-product-img tablet" src="img/tablet.jpg" alt="img">
+                            <h3 class="product-title">Планшет Apple IPad New 2017 Wi-Fi 32Gb Space Grey (MP2F2)</h3>
+                            <span class="popular-product-price left blue-grey-text text-darken-2">$800</span>
+                            <a class="waves-effect waves-light btn right">Предзаказ</a>
+                        </div>
+                        <div class="col s3 popular-product-item">
+                            <img class="popular-product-img tablet" src="img/tablet.jpg" alt="img">
+                            <h3 class="product-title">Планшет Apple IPad New 2017 Wi-Fi 32Gb Space Grey (MP2F2)</h3>
+                            <span class="popular-product-price left blue-grey-text text-darken-2">$800</span>
+                            <a class="waves-effect waves-light btn right">Предзаказ</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="test3" class="col s12">Test 3</div>
+                <div id="test4" class="col s12">Test 4</div>
+                <div id="test5" class="col s12">Test 4</div>
+                <div id="test6" class="col s12">Test 4</div>
+            </div>
+        </div> <!-- main-tabs-wrapper -->
+        <div class="main-news-wrapper">
+            <h3 class="cards-title">Новости, советы, статьи и обзоры</h3>
+            <div class="row">
+                <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/card1.jpg">
+                            <span class="card-title">Gorilla Glass</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Что такое Gorilla Glass и какая разница между поколениями</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/card1.jpg">
+                            <span class="card-title">Gorilla Glass</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Что такое Gorilla Glass и какая разница между поколениями</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/card1.jpg">
+                            <span class="card-title">Gorilla Glass</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Что такое Gorilla Glass и какая разница между поколениями</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- main-news-wrapper -->
+        <div class="main-bottom-wrapper">
+            <div class="col s12">
+                <p>Добро пожаловать в интернет – магазин цифровой техники и бытовой электроники allo.ua!
+                    Нашим основным преимуществом является лучший ассортимент, удобство покупки онлайн, отличные цены и гибкие возможности доставки. На нашем сайте вы сможете выбрать и купить смартфоны самых популярных брендов, подобрать самый подходящий для себя планшет, познакомиться и приобрести современные модели фототехники и ноутбуков, купить умный телевизор за разумные деньги. И это только малая часть товаров, которые вы сможете найти в один клик в нашем интернет – магазине Алло. Также, хотим с радостью вам предложить посетить раздел Бытовой техники, в котором представлен широкий выбор холодильников, стиральных машин, микроволновых печей, пылесосов и прочей необходимой техники в быту.
+                    Существенным нашим достоинством перед прочими интернет – магазинами является возможность забрать Ваш заказ из любого розничного магазина Алло. Это действительно отличная возможность сэкономить время, так как благодаря удобному расположению наших салонов, выбрать самый ближайший для вас магазин Алло не составит никакого труда. Наши квалифицированные специалисты с радостью помогут настроить ваше новое устройство и предложат дополнительные аксессуары! А еще хотим напомнить, что у вас всегда будет возможность купить технику с бесплатной доставкой на дом.
+                    На весь наш товар предоставляется фирменная гарантия от производителя. Оплатить свою покупку Вы сможете наличными при получении товара. Также, на нашем сайте представлена возможность покупки в кредит/рассрочку. Если у Вас возникли какие – либо вопросы – пожалуйста, звоните нам по номеру 0-800-300-100 (звонки со стационарных телефонов на территории Украины бесплатные) и наши специалисты с радостью ответят на Ваши вопросы!</p>
+            </div>
+        </div>
+
+
+    </main> <!-- main end -->
+    <footer>
+        <div class="row footer-main-wrapper">
+            <div class="col s4 our-socials-wrapper">
+                <ul>
+                    <li><a class="socials" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a class="socials" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="socials" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                </ul>
+
+            </div>
+            <div class="col s8">
+                <div class="row valign-wrapper">
+                    <div class="col s4">
+                        <h4 class="footer-subscribe-title">Узнавай о новых акциях!</h4>
+                    </div>
+                    <div class="col s5">
+                        <input type="text" placeholder="enter your email">
+                    </div>
+                    <div class="col s3">
+                        <input class="waves-effect waves-light btn" type="button" value="Subscribe">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer> <!-- footer end -->
+</div> <!-- container end -->
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel({
+        });
+        autoplay();
+        function autoplay() {
+            $('.carousel').carousel("next");
+            setTimeout(autoplay, 4000);
+        }
+    });
+    $('.carousel.carousel-slider').carousel({fullWidth: true, duration: 300});
+
+    $(document).ready(function(){
+        $('ul.tabs').tabs();
+    });
+    $(document).ready(function(){
+        $('ul.tabs').tabs('select_tab', 'tab_id');
+    });
+
+</script>
+
+</body>
+</html>
